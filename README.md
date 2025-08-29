@@ -1,10 +1,10 @@
 # elo2.0
 
-🔹 Dual-Rating Elo System (Team + Individual)
+## Dual-Rating Elo System (Team + Individual)
 
-We’re combining two layers of rating:
+### We’re combining two layers of rating:
 
-Team Rating (TR)
+### Team Rating (TR)
 
 Each distinct 5-player team has its own Elo rating.
 
@@ -18,7 +18,7 @@ Magnitude depends on opponent TR and expected win probability.
 
 A “team” is treated as a unique combination of players (so if you change rosters, it’s a new team with a fresh rating).
 
-Individual Rating (IR)
+### Individual Rating (IR)
 
 Each player has their own personal rating.
 
@@ -34,9 +34,9 @@ Players above average gain IR, below average lose IR.
 
 This way, even in a losing team, the top performer can climb, while underperformers drop.
 
-🔹 Match Processing (Step by Step)
+## Match Processing (Step by Step)
 
-Start ratings:
+### Start ratings:
 
 TR = 1500 for all teams.
 
@@ -62,7 +62,7 @@ Teams sort into rankings (like CS2 leagues).
 
 Players’ IR shows personal skill consistency, independent of win/loss streaks.
 
-🔹 What This Captures
+## What This Captures
 
 Team performance matters:
 
@@ -88,7 +88,7 @@ Their own IR.
 
 The TR of their current/past teams.
 
-🔹 Advantages Over Pure Elo
+## Advantages Over Pure Elo
 
 Prevents “hard carrying” from being invisible.
 
@@ -100,7 +100,7 @@ Leaderboards for top teams.
 
 Leaderboards for top players (even across different teams).
 
-👉 So in short:
+## So in short:
 
 Team Rating (TR) = How good the team unit is.
 
