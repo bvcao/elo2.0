@@ -1,0 +1,61 @@
+{
+  "seasons": [
+    {
+      "season": 1,
+      "matches": [
+        {
+          "match_id": 1,
+          "winner": "Team_A",
+          "teams": [
+            {
+              "team_id": "Team_A",
+              "players": [
+                {"id": "A1", "adr": 89},
+                {"id": "A2", "adr": 102},
+                {"id": "A3", "adr": 77},
+                {"id": "A4", "adr": 94},
+                {"id": "A5", "adr": 83}
+              ]
+            },
+            {
+              "team_id": "Team_B",
+              "players": [
+                {"id": "B1", "adr": 71},
+                {"id": "B2", "adr": 66},
+                {"id": "B3", "adr": 74},
+                {"id": "B4", "adr": 59},
+                {"id": "B5", "adr": 80}
+              ]
+            }
+          ]
+        },
+        {
+          "match_id": 2,
+          "winner": "Team_C",
+          "teams": [
+            {
+              "team_id": "Team_C",
+              "players": [
+                {"id": "C1", "adr": 96},
+                {"id": "C2", "adr": 88},
+                {"id": "C3", "adr": 92},
+                {"id": "C4", "adr": 101},
+                {"id": "C5", "adr": 79}
+              ]
+            },
+            {
+              "team_id": "Team_D",
+              "players": [
+                {"id": "D1", "adr": 85},
+                {"id": "D2", "adr": 73},
+                {"id": "D3", "adr": 91},
+                {"id": "D4", "adr": 78},
+                {"id": "D5", "adr": 82}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
